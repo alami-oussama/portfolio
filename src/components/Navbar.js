@@ -12,6 +12,7 @@ import {
 import { DiAptana } from "react-icons/di";
 
 import { CgFileDocument } from "react-icons/cg";
+import pdf from "../Assets/../Assets/CV_EN.pdf";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -90,11 +91,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href={pdf} target="_blank">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
