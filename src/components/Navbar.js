@@ -12,7 +12,7 @@ import {
 import { DiAptana } from "react-icons/di";
 
 import { CgFileDocument } from "react-icons/cg";
-import pdf from "../Assets/../Assets/CV_EN.pdf";
+import pdf from "../Assets/../Assets/resume.pdf";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
