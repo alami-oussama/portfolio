@@ -42,7 +42,7 @@ function Projects() {
               imgPath={signature}
               isBlog={false}
               title="Handwritten signature verification"
-              description="The project involve creating an API that receives two scanned documents: a signed letter and a form with several signatures, and compare the signatures to see if they match. The API will then return the documents with the matching signatures highlighted, along with the accuracy percentage of the match."
+              description="This project involves creating an object detection based API that receives two scanned documents: a signed letter and a form with several signatures. The API will then recognize and highlight the signatures and compare them to see if they match."
               freeLink="https://www.freelancer.com/projects/flutter/Build-image-recognition-app-identify"
             />
           </Col>
