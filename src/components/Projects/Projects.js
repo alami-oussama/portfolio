@@ -24,6 +24,7 @@ function Projects() {
               title="Bevincey"
               description="Machine learning API for an ai-powered platform (Bevincey) where users can quickly summarize content to get key points and generate content-based study questions to assess readiness and reinforce learning."
               demoLink="https://bevincey.com/"
+              freeLink="https://www.freelancer.com/projects/website-design/Powered-Test-Question-Generator"
             />
           </Col>
 
@@ -42,6 +43,7 @@ function Projects() {
               isBlog={false}
               title="Handwritten signature verification"
               description="The project involve creating an API that receives two scanned documents: a signed letter and a form with several signatures, and compare the signatures to see if they match. The API will then return the documents with the matching signatures highlighted, along with the accuracy percentage of the match."
+              freeLink="https://www.freelancer.com/projects/flutter/Build-image-recognition-app-identify"
             />
           </Col>
 
@@ -61,6 +63,7 @@ function Projects() {
               isBlog={false}
               title="Time series forecasting"
               description="The objective of this project was to use machine learning to predict stock prices. A variety of machine learning models were employed and compared to determine the most accurate model."
+              freeLink="https://www.freelancer.com/projects/python/Machine-learning-time-series-python"
             />
           </Col>
 

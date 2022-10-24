@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { SiFreelancer } from "react-icons/si";
 
 function ProjectCards(props) {
   return (
@@ -14,14 +15,18 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         {props.ghLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
+          <Button
+            variant="primary"
+            href={props.ghLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
             <BsGithub /> &nbsp;Github
           </Button>
         )}
-        {"\n"}
-        {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {"\n"}
+        {"\n"}
 
         {props.demoLink && (
           <Button
@@ -32,6 +37,21 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+
+        {"\n"}
+        {"\n"}
+
+        {props.freeLink && (
+          <Button
+            variant="primary"
+            href={props.freeLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <SiFreelancer /> &nbsp;
+            {"Review"}
           </Button>
         )}
       </Card.Body>

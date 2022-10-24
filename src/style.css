@@ -708,12 +708,12 @@ button:focus {
   }
 }
 
-.fork-btn {
+.freelance-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
 }
 
-.fork-btn-inner {
+.freelance-btn-inner {
   line-height: 1.4em !important;
   background-color: #934cce5e !important;
   padding: 0.25rem 1.1rem !important;
@@ -721,11 +721,11 @@ button:focus {
   text-align: center !important;
 }
 
-.fork-btn-inner:hover {
+.freelance-btn-inner:hover {
   transform: translateY(-2px) !important;
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
 }
-.fork-btn-inner::after {
+.freelance-btn-inner::after {
   display: none !important;
 }

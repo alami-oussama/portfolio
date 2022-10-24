@@ -23,8 +23,11 @@ function About() {
                   Artificial Intelligence Engineering Student
                 </b>
               </i>{" "}
-              from ENSIAS (National School of Computer Science in Rabat,
-              Morocco).
+              from ENSIAS, and{" "}
+              <i>
+                <b className="purple">Machine Learning Freelancer </b>
+              </i>{" "}
+              at Freelancer.com and Upwork.com.
               <br />
               <br />I am motivated to improve my skills and learn new ones,
               which I can then use to create real projects. I stay up-to-date

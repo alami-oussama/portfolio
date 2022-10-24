@@ -3,12 +3,14 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { SiFreelancer } from "react-icons/si";
 import { DiAptana } from "react-icons/di";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -94,6 +96,16 @@ function NavBar() {
               <Nav.Link href={pdf} target="_blank">
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item className="freelance-btn">
+              <Button
+                href="https://www.freelancer.com/u/Oussama2IA"
+                target="_blank"
+                className="freelance-btn-inner"
+              >
+                <SiFreelancer style={{ fontSize: "1.1em" }} />
+              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
