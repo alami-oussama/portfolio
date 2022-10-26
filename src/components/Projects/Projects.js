@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import bevincey from "../../Assets/Projects/bevincey.png";
+import bevinzey from "../../Assets/Projects/bevinzey.png";
 import chatbot from "../../Assets/Projects/chatbot.png";
 import art from "../../Assets/Projects/art.jpg";
 import faceRecognition from "../../Assets/Projects/face-recognition.jpg";
@@ -20,10 +20,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bevincey}
-              title="Bevincey"
-              description="Machine learning API for an ai-powered platform (Bevincey) where users can quickly summarize content to get key points and generate content-based study questions to assess readiness and reinforce learning."
-              demoLink="https://bevincey.com/"
+              imgPath={bevinzey}
+              title="Bevinzey"
+              description="Machine learning API for an ai-powered platform (Bevinzey.com) where users can quickly summarize content to get key points and generate content-based study questions to assess readiness and reinforce learning."
+              demoLink="https://bevinzey.com/"
               freeLink="https://www.freelancer.com/projects/website-design/Powered-Test-Question-Generator"
             />
           </Col>
