@@ -44,29 +44,19 @@ function About() {
               <li className="about-activity">
                 <ImPointRight />{" "}
                 <i>
-                  <b className="purple">
-                    Proficient Python programming, enabling me to write clean,
-                    efficient and reusable code
-                  </b>
+                  <b className="purple">Python programming</b>
                 </i>
               </li>
               <li className="about-activity">
                 <ImPointRight />{" "}
                 <i>
-                  <b className="purple">
-                    Extensive experience in API and Cloud development (MLOps),
-                    facilitating seamless integration and deployment, and
-                    efficient data exchange between software applications
-                  </b>
+                  <b className="purple">API development</b>
                 </i>
               </li>
               <li className="about-activity">
                 <ImPointRight />{" "}
                 <i>
-                  <b className="purple">
-                    Expertise in automation, driving operational efficiency and
-                    accuracy in complex tasks
-                  </b>
+                  <b className="purple">Automation</b>
                 </i>
               </li>
             </ul>
