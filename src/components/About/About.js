@@ -16,55 +16,57 @@ function About() {
               Know Who <span className="purple"> I'm </span>
             </h1>
             <p className="about-body">
-              I'm an
+              As an accomplished
+              <i>
+                <b className="purple"> Artificial Intelligence Engineer,</b>
+              </i>{" "}
+              I harness the power of AI to develop innovative solutions and
+              drive efficiency. My passion lies in not only expanding my own
+              knowledge base, but also in applying this knowledge in real-world
+              projects that have a profound impact.
+              <br />
+              <br />I pride myself on being at the forefront of technological
+              advancements in AI, an ever-evolving field. My primary interest
+              lies in creating cutting-edge
               <i>
                 <b className="purple">
                   {" "}
-                  Artificial Intelligence Engineering Student
+                  MMachine Learning and Deep Learning products{" "}
                 </b>
-              </i>{" "}
-              from ENSIAS, and{" "}
-              <i>
-                <b className="purple">Machine Learning Freelancer </b>
-              </i>{" "}
-              at Freelancer.com and Upwork.com.
-              <br />
-              <br />I am motivated to improve my skills and learn new ones,
-              which I can then use to create real projects. I stay up-to-date
-              with advancements in
-              <i>
-                <b className="purple"> AI world </b>
               </i>
-              because it is one of the most rapidly-growing areas in software
-              engineering.
+              that challenge the status quo and redefine efficiency.
               <br />
               <br />
-              My field of Interest's are building new
-              <i>
-                <b className="purple"> Machine Learning/Deep Learning </b>
-              </i>
-              products.
-              <br />
-              <br />
-              In additional to machine learning and deep learning I can also do:{" "}
+              Alongside my specialization in AI, I bring to the table a robust
+              suite of skills including:{" "}
             </p>
             <ul>
               <li className="about-activity">
                 <ImPointRight />{" "}
                 <i>
-                  <b className="purple">Python programming</b>
+                  <b className="purple">
+                    Proficient Python programming, enabling me to write clean,
+                    efficient and reusable code
+                  </b>
                 </i>
               </li>
               <li className="about-activity">
                 <ImPointRight />{" "}
                 <i>
-                  <b className="purple">API development</b>
+                  <b className="purple">
+                    Extensive experience in API and Cloud development (MLOps),
+                    facilitating seamless integration and deployment, and
+                    efficient data exchange between software applications
+                  </b>
                 </i>
               </li>
               <li className="about-activity">
                 <ImPointRight />{" "}
                 <i>
-                  <b className="purple">Automation</b>
+                  <b className="purple">
+                    Expertise in automation, driving operational efficiency and
+                    accuracy in complex tasks
+                  </b>
                 </i>
               </li>
             </ul>
