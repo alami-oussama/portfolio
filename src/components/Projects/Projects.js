@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import bevinzey from "../../Assets/Projects/bevinzey.png";
 import chatbot from "../../Assets/Projects/chatbot.png";
-import art from "../../Assets/Projects/art.jpg";
+import matching from "../../Assets/Projects/matching.png";
 import faceRecognition from "../../Assets/Projects/face-recognition.jpg";
 import timeSeries from "../../Assets/Projects/time-series.jpg";
 import signature from "../../Assets/Projects/signature.png";
