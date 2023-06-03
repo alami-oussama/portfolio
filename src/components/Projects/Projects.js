@@ -30,10 +30,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatbot}
+              imgPath={matching}
               isBlog={false}
-              title="Chatbot"
-              description="This project was part of my second year internship in the Moroccan parliament. The goal was to develop an assistant chatbot based on Deep Learning to answer questions related to the House of Representatives."
+              title="Job Resume Matching"
+              description="During my six-month capstone internship with EMGS Group in France, I was entrusted with a significant project that involved the development of a matching tool for a Sourcing platform. The primary aim of this initiative was to streamline and accelerate the recruitment process while also reducing associated costs."
             />
           </Col>
 
@@ -49,11 +49,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={art}
+              imgPath={chatbot}
               isBlog={false}
-              title="AI makes art"
-              description="This project is all about using GANs (generative adversarial networks) to create works of art. The AI will be trained on a dataset of images, and will then generate new images based on what it has learned. It will be interesting to see what kind of art the AI comes up with!"
-              ghLink="https://github.com/alami-oussama/AI-Creates-Art"
+              title="Chatbot"
+              description="This project was part of my second year internship in the Moroccan parliament. The goal was to develop an assistant chatbot based on Deep Learning to answer questions related to the House of Representatives."
             />
           </Col>
 
