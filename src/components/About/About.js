@@ -31,7 +31,7 @@ function About() {
               <i>
                 <b className="purple">
                   {" "}
-                  MMachine Learning and Deep Learning products{" "}
+                  Machine Learning and Deep Learning products{" "}
                 </b>
               </i>
               that challenge the status quo and redefine efficiency.
